@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = "Segment-Mixpanel"
-  s.version          = "1.6.0"
+  s.name             = "Segment-Mixpanel-3_6_0"
+  s.version          = "1.6.1"
   s.summary          = "Mixpanel Integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.homepage         = "http://segment.com/"
   s.license          =  { :type => 'MIT' }
   s.author           = { "Segment" => "friends@segment.com" }
-  s.source           = { :git => "https://github.com/segment-integrations/analytics-ios-integration-mixpanel.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/stadium-live/analytics-ios-integration-mixpanel.git" }
   s.social_media_url = 'https://twitter.com/segment'
 
   s.platform     = :ios, '8.0'
